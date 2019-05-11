@@ -6,7 +6,7 @@ class Header extends Component {
             <header>
                 <div    className="logo"
                         onClick={this.helloFunction}
-                >New Logo
+                >Search News
                 </div>
                 
                 <input  onChange={this.props.keywords} />
